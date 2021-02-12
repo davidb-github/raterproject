@@ -1,0 +1,11 @@
+{
+    "python.pythonPath": "/Users/davidb/.local/share/virtualenvs/raterproject-sxPy0UUw/bin/python",
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "gamerrater",
+            "database": "${workspaceFolder:rater-server}/db.sqlite3"
+        }
+    ]
+}
