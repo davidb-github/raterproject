@@ -1,3 +1,4 @@
+
 """raterproject URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
@@ -14,8 +15,14 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import include, path
+from raterapi.views import register_user, login_user
 
+# Requests to http://localhost:8000/register will be routed to the register_user function
+# Requests to http://localhost:8000/login will be routed to the login_user function
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('register', register_user),
+    path('login', login_user),
+    path('api-auth', include('rest_framework.urls', namespace='rest_framework')),
 ]
