@@ -1,32 +1,43 @@
 [
     {
-        "model": "levelupapi.game",
+        "model": "gameraterapi.game",
         "pk": 1,
         "fields": {
-            "title": "Chess",
-            "game_type_id": 1,
-            "number_of_players": 2,
-            "gamer_id": 1
+            "rater_id": 1,
+            "title": "Ghost of Tsushima",
+            "description": "Ninja assasin meets action adventure RPG.",
+            "designer": "Sucker Punch Productions",
+            "year": 2020,
+            "player_count": 1,
+            "duration": 60,
+            "age": 18
         }
     },
     {
-        "model": "levelupapi.game",
+        "model": "gameraterapi.game",
         "pk": 2,
         "fields": {
-            "title": "Dungeons & Dragons",
-            "game_type_id": 2,
-            "number_of_players": 5,
-            "gamer_id": 1
+            "rater_id": 2,
+            "title": "Skater XL",
+            "description": "Immersive street skateboarding simulator.",
+            "designer": "Easy Productions",
+            "year": 2020,
+            "player_count": 1,
+            "duration": 15,
+            "age": 12
         }
     },
     {
-        "model": "levelupapi.game",
+        "model": "gameraterapi.game",
         "pk": 3,
         "fields": {
-            "title": "Duck Hunt",
-            "game_type_id": 3,
-            "number_of_players": 8,
-            "gamer_id": 1
-        }
+            "rater_id": 1,
+            "title": "Ghost of Tsushima",
+            "description": "Ninja assasin meets action adventure RPG.",
+            "designer": "Sucker Punch Productions",
+            "year": 2020,
+            "player_count": 1,
+            "duration": 60,
+            "age": 18        }
     }
 ]

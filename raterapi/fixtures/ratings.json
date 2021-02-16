@@ -1,0 +1,29 @@
+[
+    {
+        "model": "gameraterapi.rating",
+        "pk": 1,
+        "fields": {
+            "rater_id": 1,
+            "game_id": 1,
+            "rating": 8
+        }
+    },
+    {
+        "model": "gameraterapi.rating",
+        "pk": 2,
+        "fields": {
+            "rater_id": 2,
+            "game_id": 2,
+            "rating": 8
+        }
+    },
+    {
+        "model": "gameraterapi.rating",
+        "pk": 3,
+        "fields": {
+            "rater_id": 3,
+            "game_id": 3,
+            "rating": 8
+        }
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "model": "gameraterapi.review",
+        "pk": 1,
+        "fields": {
+            "rater_id": 1,
+            "game_id": 1,
+            "content": "This game is great."
+        }
+    },
+    {
+        "model": "gameraterapi.reveiw",
+        "pk": 2,
+        "fields": {
+            "rater_id": 2,
+            "game_id": 2,
+            "content": "This game is OK."
+        }
+    },
+    {
+        "model": "gameraterapi.review",
+        "pk": 3,
+        "fields": {
+            "rater_id": 3,
+            "game_id": 3,
+            "content": "This game is crap."
+        }
+    }
+]
